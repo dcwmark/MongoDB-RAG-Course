@@ -26,4 +26,20 @@ The breaking down of large piece of text into smaller `segments` or `chunks`.
 
 image::Ways of Chunking.png[]
 
+NOTE: https://www.mongodb.com/developer/products/atlas/choosing-chunking-strategy-rag/?utm_term=apoorva.joshi[More on Chunking^]
+
+TIP: Chunking provides semantic meanings to our data, so that we can use __natural language__ for our queries.
+
+==== Embeddings
+
+image::Embeddings.png[]
+
+===== How to embed data
+
+image::How to Embed Data.png[]
+
+===== Embedding chunk content
+
+image::Embedding Chunk Content.png[]
+
 
