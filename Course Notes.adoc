@@ -1,0 +1,29 @@
+
+Building RAG Application Using MongoDB
+======================================
+
+https://www.youtube.com/watch?v=ClYdveChNzU&list=PLA7_s1Rr75__bDXI4PUCB9dCpk9EJQd3O[YouTube - Building RAG Application Using MongoDB^]
+
+image::MongoDB RAG Schematic.png[MogoDB Rag Schematic]
+
+=== Retrievals
+The three phases in retrieval:
+
+. Chunking
+. Embedding
+. Vector Searching
+
+NOTE: Chunking and Embedding are for _data preparations_ +
+      Vector Searching is for the _searching_ and _returning_ results.
+      
+==== Chunking
+The breaking down of large piece of text into smaller `segments` or `chunks`.
+
+* Reduce generation costs
+* Focus the attention of the LLM on the most relevant information.
+
+===== Ways of Chunking
+
+image::Ways of Chunking.png[]
+
+
